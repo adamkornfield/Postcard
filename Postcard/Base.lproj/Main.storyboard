@@ -101,6 +101,15 @@
                                     <rect key="frame" x="16" y="78" width="288" height="44"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scM-af-yf7">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="149" width="188" height="21"/>
+                                </variation>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="I81-0t-ce6">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
@@ -116,6 +125,7 @@
                                 <exclude reference="6tu-mU-E6J"/>
                                 <exclude reference="i7w-bc-5J4"/>
                                 <exclude reference="6vn-BP-hU0"/>
+                                <exclude reference="scM-af-yf7"/>
                                 <exclude reference="I81-0t-ce6"/>
                             </mask>
                         </variation>
@@ -125,6 +135,7 @@
                                 <include reference="6tu-mU-E6J"/>
                                 <include reference="i7w-bc-5J4"/>
                                 <include reference="6vn-BP-hU0"/>
+                                <include reference="scM-af-yf7"/>
                                 <include reference="I81-0t-ce6"/>
                             </mask>
                         </variation>
@@ -136,6 +147,7 @@
                         <outlet property="enterNameTextField" destination="6cF-cq-eMa" id="c8O-6A-BFL"/>
                         <outlet property="mailButton" destination="i7w-bc-5J4" id="WaD-3m-cqq"/>
                         <outlet property="messageLabel" destination="6vn-BP-hU0" id="Bmy-eF-2FI"/>
+                        <outlet property="nameLabel" destination="scM-af-yf7" id="3Wj-ao-mNO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ze5-CB-3a4" userLabel="First Responder" sceneMemberID="firstResponder"/>
